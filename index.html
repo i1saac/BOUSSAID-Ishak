@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ishak Boussaid – Élève-ingénieur réseaux IP, cloud et cybersécurité</title>
+<meta name="description" content="Portfolio d’Ishak Boussaid, élève-ingénieur en télécommunications et réseaux IP à l’ENSTTIC d’Oran.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Accueil">ib<span>.</span>net</a>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#home">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="hero-text">
+    <p class="hello">Oran, Algérie · Master en France visé</p>
+    <h1>Ishak<br>Boussaid</h1>
+    <p class="role">Élève-ingénieur en télécommunications et réseaux IP, tourné vers l’architecture réseau, le cloud et la cybersécurité.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">Voir mes projets</a>
+      <a class="btn" href="#contact">Me contacter</a>
+    </div>
+    <p class="hint" id="hint">Survolez le réseau : chaque routeur dévoile une de mes compétences.</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>À propos</h2>
+  <div class="about-grid">
+    <div class="who">
+      <div class="avatar"><img src="photo.jpg" alt="Portrait d’Ishak Boussaid" onerror="this.remove()"><span>IB</span></div>
+      <p>Je suis en 5e année à l’ENSTTIC d’Oran et candidat à un Master en France en réseaux, cloud et cybersécurité. J’aime comprendre comment un paquet voyage d’un point à l’autre, puis construire et sécuriser le chemin.</p>
+      <p>Mes compétences en routage, commutation et infrastructure cloud sont renforcées par deux stages et une certification Oracle Cloud Infrastructure.</p>
+      <ul class="facts">
+        <li><b>Langues</b>Arabe : langue maternelle<br><a class="proof" href="certificates/certificat-francais-b2.pdf" target="_blank" rel="noopener">Français B2 : voir le certificat (PDF)</a><br><a class="proof" href="certificates/certificat-anglais-c1.pdf" target="_blank" rel="noopener">Anglais C1 : voir le certificat (PDF)</a></li>
+        <li><b>Engagement</b> Membre du club Igenergie, pratique du jujitsu</li>
+      </ul>
+    </div>
+    <ol class="timeline">
+      <li><time>07/2026 – 08/2026</time><h3>Stagiaire, Mobilis ATM</h3><p>Chlef. Contribution à des projets techniques et appui aux équipes au quotidien.</p><a class="proof" href="certificates/attestation-mobilis-atm.pdf" target="_blank" rel="noopener">Voir l’attestation de stage (PDF)</a></li>
+      <li><time>07/2025 – 08/2025</time><h3>Certification Oracle Cloud Infrastructure</h3><p>Oracle Cloud Infrastructure 2025 Certified Foundations Associate.</p><a class="proof" href="https://catalog-education.oracle.com/ords/certview/sharebadge_m?id=1532A3B169514BFA69EA5F78379D9194277D38BFAF23543BB425DB3FFC1E8242" target="_blank" rel="noopener">Voir le certificat (PDF)</a></li>
+      <li><time>07/2025 – 08/2025</time><h3>Stagiaire, Algérie Télécom</h3><p>Chlef. Découverte des équipements MSAN et de la fibre optique, participation à la supervision et à la maintenance des réseaux.</p><a class="proof" href="certificates/attestation-algerie-telecom.pdf" target="_blank" rel="noopener">Voir l’attestation de stage (PDF)</a></li>
+      <li><time>09/2022 – en cours</time><h3>Diplôme d’ingénieur d’État, ENSTTIC</h3><p>Télécommunications et réseaux IP, 5e année.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Compétences</h2>
+  <p class="lead">Cliquez sur une catégorie pour afficher son contenu.</p>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="chips" id="chips" role="tabpanel" aria-live="polite"></div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projets</h2>
+  <div class="cards" id="cards"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="lead">Un stage, un échange sur un projet réseau ou cloud ? Écrivez-moi, je réponds vite.</p>
+  <div class="contact-list">
+    <a href="mailto:ishak.boussaid@ensttic.dz"><b>E-mail</b>ishak.boussaid@ensttic.dz</a>
+    <a href="tel:+213783915347"><b>Téléphone</b>+213 783 915 347</a>
+    <a href="https://linkedin.com/in/ishak-boussaid-281999360" target="_blank" rel="noopener"><b>LinkedIn</b>ishak-boussaid-281999360</a>
+  </div>
+  <button class="btn ping" id="ping">Envoyer un ping</button>
+  <pre class="term" id="term" aria-live="polite"></pre>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Ishak Boussaid · Oran, Algérie</footer>
+<script src="script.js"></script>
+</body>
+</html>
