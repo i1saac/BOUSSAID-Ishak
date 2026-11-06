@@ -59,13 +59,13 @@ const projects = [
     title: 'Laboratoire SIEM et honeypot dans le cloud', tag: 'Projet personnel',
     desc: 'Mise en place sous Microsoft Azure d’un environnement de surveillance et d’analyse des menaces.',
     img: art('#0E7C7B', '#13233A', '<path d="M320 70l110 40v80c0 70-50 100-110 120-60-20-110-50-110-120v-80z"/><circle cx="320" cy="190" r="28"/><path d="M320 162v-30M348 190h30M320 218v30M292 190h-30"/>'),
-    link: 'https://github.com/', label: 'Voir sur GitHub'
+    link: 'https://github.com/i1saac/Laboratoire-SIEM-et-honeypot-dans-le-cloud', label: 'Voir sur GitHub'
   },
   {
     title: 'Simulation et virtualisation de réseaux', tag: 'Projet académique',
     desc: 'Configuration de routeurs, commutateurs, VLAN, DHCP et NAT sous GNS3, avec virtualisation sous VMware.',
     img: art('#13233A', '#2F5D8A', '<circle cx="320" cy="90" r="30"/><circle cx="150" cy="260" r="30"/><circle cx="320" cy="260" r="30"/><circle cx="490" cy="260" r="30"/><path d="M320 120v110M300 112L170 235M340 112l130 123"/>'),
-    link: 'https://github.com/', label: 'Voir sur GitHub'
+    link: 'https://github.com/i1saac/Simulation-et-virtualisation-de-r-seaux', label: 'Voir sur GitHub'
   },
   {
     title: 'Détection et classification de pièces de monnaie', tag: 'Projet académique',
@@ -77,7 +77,7 @@ const projects = [
     title: 'Jeu Tic-Tac-Toe en Java', tag: 'Projet académique',
     desc: 'Jeu multijoueur en réseau développé avec les sockets Java (client et serveur).',
     img: art('#51647A', '#13233A', '<path d="M255 80v200M385 80v200M170 150h300M170 220h300"/><path d="M190 100l50 40M240 100l-50 40"/><circle cx="320" cy="185" r="22"/>'),
-    link: 'https://github.com/', label: 'Voir sur GitHub'
+    link: 'https://github.com/i1saac/Jeu-Tic-Tac-Toe-en-Java-Socket-Programming-', label: 'Voir sur GitHub'
   },
   {
     title: 'Plateforme web de gestion', tag: 'Projet réalisé',
